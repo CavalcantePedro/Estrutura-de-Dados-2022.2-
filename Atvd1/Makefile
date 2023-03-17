@@ -1,7 +1,7 @@
 all:test
 
-test: LSeq.cpp main.cpp
-	g++ -o executavel LSeq.cpp main.cpp
+test: LSeq.o main.o
+	g++ -o executavel LSeq.o main.o
 	./executavel
 
 objs: LSeq.cpp main.cpp
@@ -9,3 +9,5 @@ objs: LSeq.cpp main.cpp
 
 clean:
 	rm executavel
+	rm main.o
+	rm LSeq.o
