@@ -67,11 +67,11 @@ void LSeq::retirarElemento(int posicao)
         cout << "A lista esta vazia." << endl;
         return;
     }
-    if (posicao < 0 || posicao >= qndEle) {
+    if (posicao < 0 || posicao > qndEle) {
         cout << "Posicao invalida." << endl;
         return;
     }
-    for (int i = posicao + 1; i < qndEle; i++) {
+    for (int i = posicao + 1; i <= qndEle; i++) {
         elementos[i - 1] = elementos[i];
     }
     qndEle--;

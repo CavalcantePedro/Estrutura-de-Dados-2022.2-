@@ -38,5 +38,16 @@ int main()
     cout << "E a lista esta assim:" << endl;
     lista.imprimirLista();
 
+    cout << "Pegando elemento da posiçao 3" << endl;
+    cout << "Elemento da posição 3 é: " << lista.getElemento(3)<<endl;
+
+    cout << "Modificar elemento da posição 1" << endl;
+    lista.modificarElemento(1, 100);
+    lista.imprimirLista();
+
+    cout << "Retirar elemento da posiçao 1"<< endl;
+    lista.retirarElemento(1);
+    lista.imprimirLista();
+    
     return 0;
 }
