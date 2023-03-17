@@ -53,8 +53,8 @@ void LSeq::inserirElemento(int posicao, int valor)
         cout << "Posicao invalida." << endl;
         return;
     }
-    for (int i = qndEle - 1; i >= posicao; i--) {
-        elementos[i + 1] = elementos[i];
+    for (int i = qndEle; i >= posicao; i--) {
+        elementos[i+1] = elementos[i];
     }
     elementos[posicao] = valor;
     cout << "Valor: " << valor << " inserido na posição: " << posicao << endl;

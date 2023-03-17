@@ -33,8 +33,10 @@ int main()
 
     cout << "Inserindo um elemento na posição 2 da lista: " << endl;
     lista.inserirElemento(2, 15);
+    cout << "Inserindo um elemento na posição 1 da lista: " << endl;
+    lista.inserirElemento(1, 25);
     cout << "E a lista esta assim:" << endl;
     lista.imprimirLista();
-    
+
     return 0;
 }
