@@ -1,0 +1,16 @@
+all: teste
+
+teste: No.o main.o ListaD.o
+	g++ -o exetest No.o main.o ListaD.o
+	/exetest
+
+objetos: No.cpp main.cpp ListaD.cpp
+	g++ -c *.cpp 
+
+limpar:
+	rm No.o
+	rm main.o
+	rm ListaD.o
+	rm exetest
+	
+

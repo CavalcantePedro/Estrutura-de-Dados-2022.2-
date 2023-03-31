@@ -8,6 +8,6 @@ objs: LSeq.cpp main.cpp
 	g++ -c LSeq.cpp main.cpp
 
 clean:
-	rm executavel
 	rm main.o
 	rm LSeq.o
+	rm executavel
