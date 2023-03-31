@@ -10,9 +10,12 @@ Todos os códigos foram desenvolvidos utilizando a linguagem c/c++.</br>
 
 Sinta-se a vontade para utilizar os códigos deste repositório para fins de aprendizagem.
 
-### 🌍 Onde me encontrar:
+### 👀 About the repository:
 
-Caso queira discutir sobre algum código, ou solicitar ajuda pode me contatar.
+This repository was created to store codes made during the Data Structures subject of the Computer Engineering course at `UFPB`.
+
+### 🌍 Onde me encontrar:
+### 🌍 Where to find me:
 
 <div align='center'>
 
