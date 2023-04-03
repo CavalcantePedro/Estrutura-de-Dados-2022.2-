@@ -10,7 +10,7 @@ using std::cerr;
 using std::cout;
 using std::endl;
 
-LSeq::LSeq() 
+LSeq::LSeq()    
 {
     //Lista inicia vazia. || Initially empty list.
     //Inicial com -1 devido ao index do array. || Initial with -1 due to array index.
