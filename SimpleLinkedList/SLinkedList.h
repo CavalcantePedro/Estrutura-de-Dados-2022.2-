@@ -18,8 +18,10 @@ private:
     void firstNode(int data);
     //Metodo privado para o ultimo nó da minha lista. || Private method to make the last node in my list.
     void lastNode(int data);
-    //Remover o unico no restante. || Remove the only one node of my list.
-    int removeTheOnlyOneNode();
+    //Metodo privado para remover o primeiro nó da minha lista. || Private method to remove the first node in my list.
+    void removeFirstNode();
+    //Metodo privado para remover o ultimo nó da minha lista. || Private method to remove the last node in my list.
+    void removeLastNode();
 
 public:
     //Metodo construtor. || Constructor method.
@@ -38,7 +40,7 @@ public:
     //Metodo para remover dado de uma determinado nó. || Method  to remove data at a given node in the list.
     void remove(int numberOfnode);
     //Metodo para imprimir lista. || Method to show list.
-    void showList();
+    void print();
 };
 
 #endif
