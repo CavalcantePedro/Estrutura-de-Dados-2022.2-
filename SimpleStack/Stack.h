@@ -7,7 +7,7 @@
 #ifndef STACK_H_
 #define STACK_H_
 
-class stack
+class Stack
 {
 private:
     //Array para guardar os dados da pilha. || Array to hold stack data.
@@ -18,7 +18,7 @@ private:
     int top;
 public:
     //Metodo construtor. || Constructor method of my class
-    stack();
+    Stack();
     //Metodo para verificar se a pilha esta vazia. || Method to check if the stack is empty.
     bool empty();
     //Metodo para verificar se a pilha esta cheia. || Method to check if the stack is full.
