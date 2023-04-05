@@ -1,6 +1,7 @@
 /*
  *	Classe da minha lista simplesmente encadeada  de inteiros. 
  *	Class of my simple linked list of ints.
+ *  Author: Pedro Ricardo Cavalcante Silva
  */
 #ifndef SLL_H_
 #define SLL_H_

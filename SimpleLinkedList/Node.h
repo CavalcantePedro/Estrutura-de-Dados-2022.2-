@@ -1,6 +1,7 @@
 /*
  *	Classe no para minha lista simplismente encadeada. 
  *	Class node of my simple linked list of ints.
+ *  Author: Pedro Ricardo Cavalcante Silva
  */
 #ifndef NODE_H_
 #define NODE_H_

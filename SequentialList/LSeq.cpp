@@ -1,6 +1,7 @@
 /*
  *	Metodos da minha classe.
  *	Methods of my class.
+ *  Author: Pedro Ricardo Cavalcante Silva
  */
 
 #include "LSeq.h"

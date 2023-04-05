@@ -1,6 +1,7 @@
 /*
  *	Metodos da minha lista simplesmente encadeada  de inteiros. 
  *	Methods of my simple linked list of ints.
+ *  Author: Pedro Ricardo Cavalcante Silva
  */
 #include "SLinkedList.h"
 #include <iostream>

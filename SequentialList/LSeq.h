@@ -1,6 +1,7 @@
 /*
  *	Classe da minha lista sequencial de inteiros. 
  *	Class of my sequential list of ints.
+ *  Author: Pedro Ricardo Cavalcante Silva
  */
 #ifndef LSEQ_H_
 #define LSEQ_H_
