@@ -15,7 +15,7 @@ private:
     //Tamanho (ou quantidade de dados) da minha pilha. || Size (or amount of data) of my stack.
     int sizeOfStack;
     //Posicao do topo da pilha. || Position of the top of the stack.
-    int top;
+    int dataOftop;
 public:
     //Metodo construtor. || Constructor method of my class
     Stack();
@@ -31,6 +31,8 @@ public:
     int top();
     //Metodo para remover o topo da pilha. || Method to remove the top of stack.
     void pop();
+    //Metodo para mostrar os dados da pilha. || Method to show the data of stack.
+    void show();
 };
 
 #endif

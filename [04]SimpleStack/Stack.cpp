@@ -4,7 +4,7 @@
  *  Author: Pedro Ricardo Cavalcante Silva
  */
 
-
+#include <iostream>
 #include "Stack.h"
 
 //Metodo construtor. || Constructor method.
@@ -51,6 +51,7 @@ int Stack::top()
     {
         return this->data[sizeOfStack-1];
     }
+    return -1;
 }
 //Metodo para remover o topo da pilha. || Method to remove the top of stack.
 void Stack::pop()
@@ -58,5 +59,14 @@ void Stack::pop()
     if(!empty())
     {
         sizeOfStack--;
+    }
+}
+
+//Metodo para mostrar os dados da pilha. || Method to show the data of stack.
+void Stack::show()
+{
+    for(int i = sizeOfStack-1; i >= 0; i--)
+    {
+        std::cout<<this->data[i]<<std::endl;
     }
 }
