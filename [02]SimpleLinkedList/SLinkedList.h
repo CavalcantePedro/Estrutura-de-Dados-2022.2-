@@ -12,17 +12,9 @@ class SListLinked
 {
 private:
     //Nó inicial da minha lista encadeada || Initial node of my linked list
-    Node *head;
+    Node* head;
     //Quantidade de nos na minha lista. || Amount of nodes in my list
     int amountOfNodes;
-    //Metodo privado para o primeiro nó da minha lista. || Private method to make the first node in my list.
-    void firstNode(int data);
-    //Metodo privado para o ultimo nó da minha lista. || Private method to make the last node in my list.
-    void lastNode(int data);
-    //Metodo privado para remover o primeiro nó da minha lista. || Private method to remove the first node in my list.
-    void removeFirstNode();
-    //Metodo privado para remover o ultimo nó da minha lista. || Private method to remove the last node in my list.
-    void removeLastNode();
 
 public:
     //Metodo construtor. || Constructor method.
