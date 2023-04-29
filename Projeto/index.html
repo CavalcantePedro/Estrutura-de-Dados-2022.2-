@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-bt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulador Gráfico de Ordenações</title>
+</head>
+<body>
+    <!--Seletor-->
+    <div class="seletor">
+        <!--Barra de selecao-->
+        <ul class="selecao">
+            <li>
+                <a href="#ListaSequencial" id="bt_nav">Lista Sequencial</a>
+            </li>
+            <li>
+                <a href="#ListaEncadeada" id="bt_nav">Lista Encadeada</a>
+            </li>
+            <li>
+                <a href="#ListaDuplamenteEncadeada" id="bt_nav">Lista Duplamente Encadeada</a>
+            </li>
+            <li>
+                <a href="#Pilha" id="bt_nav">Pilha</a>
+            </li>
+            <li>
+                <a href="#PilhaEncadeada" id="bt_nav">Pilha Encadeada</a>
+            </li>
+            <li>
+                <a href="#Fila" id="bt_nav">Fila</a>
+            </li>
+            <li>
+                <a href="#FilaEncadeada" id="bt_nav">Fila Encadeada</a>
+            </li>            
+        </ul>
+    </div>
+    
+    <!--Main-->
+    <div id="main">
+        <!--Título da estrutura selecionada-->
+        <div class="titulo">
+            <h1 id="nome_estrutura">Nome da estrutura</h1>
+        </div>
+
+        <!--Operações da estrutura selecionada-->
+        <div class="operacoes">
+        </div>
+
+        <!--Canvas onde será desenhado o gráfico-->
+        <div class="canvas">
+            <canvas id="myCanvas" width="1000" height="500" style="border:1px solid #000000;">
+        </div>
+
+    </div>
+
+    <!--Footer-->
+    <footer class="footer">
+        <p>Desenvolvido por: <a href="autor">Pedro Cavalcante</a></p>
+    </footer>
+    
+    <script src="JS/nav-bar.js"></script>
+</body>
+</html>
